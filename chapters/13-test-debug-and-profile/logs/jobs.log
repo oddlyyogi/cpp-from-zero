@@ -1,0 +1,650 @@
+2026-11-12 08:00:13 WARN  worker: job 706 queued for 19ms
+2026-11-12 08:00:18 INFO  http: POST /loans 200 457ms
+2026-11-12 08:00:19 ERROR http: GET /books/120 500 433ms
+2026-11-12 08:00:21 DEBUG cache: miss key=book:477
+2026-11-12 08:00:22 INFO  worker: job 388 done in 587ms
+2026-11-12 08:00:23 DEBUG cache: miss key=book:910
+2026-11-12 08:00:24 INFO  cache: evicted 11 entries
+2026-11-12 08:00:27 INFO  http: GET /books 404 289ms
+2026-11-12 08:00:29 INFO  worker: job 323 done in 564ms
+2026-11-12 08:00:34 INFO  cache: evicted 38 entries
+2026-11-12 08:00:35 INFO  worker: job 745 done in 59ms
+2026-11-12 08:00:36 INFO  cache: evicted 64 entries
+2026-11-12 08:00:39 INFO  cache: evicted 6 entries
+2026-11-12 08:00:42 INFO  db: pool size 9
+2026-11-12 08:00:47 INFO  auth: login ok user=barbara
+2026-11-12 08:00:48 INFO  worker: job 524 done in 674ms
+2026-11-12 08:00:56 DEBUG cache: hit key=book:402
+2026-11-12 08:01:09 INFO  cache: evicted 10 entries
+2026-11-12 08:01:11 INFO  worker: job 269 done in 256ms
+2026-11-12 08:01:13 INFO  db: pool size 55
+2026-11-12 08:01:14 INFO  http: GET /books 200 769ms
+2026-11-12 08:01:15 INFO  auth: login ok user=ken
+2026-11-12 08:01:23 INFO  worker: job 645 done in 540ms
+2026-11-12 08:01:24 INFO  cache: evicted 5 entries
+2026-11-12 08:01:29 INFO  db: pool size 23
+2026-11-12 08:01:30 INFO  http: GET /loans 201 776ms
+2026-11-12 08:01:32 INFO  auth: login ok user=ada
+2026-11-12 08:01:37 DEBUG db: query took 790ms
+2026-11-12 08:01:50 DEBUG cache: miss key=book:580
+2026-11-12 08:01:52 INFO  http: GET /loans 404 859ms
+2026-11-12 08:01:55 INFO  auth: login ok user=grace
+2026-11-12 08:01:56 WARN  worker: job 239 queued for 21ms
+2026-11-12 08:02:04 INFO  http: POST /loans 200 585ms
+2026-11-12 08:02:09 DEBUG cache: hit key=book:458
+2026-11-12 08:02:10 ERROR worker: job 646 failed: disk full
+2026-11-12 08:02:15 INFO  auth: login ok user=linus
+2026-11-12 08:02:18 INFO  worker: job 504 done in 505ms
+2026-11-12 08:02:31 INFO  auth: login ok user=linus
+2026-11-12 08:02:39 WARN  db: retrying query, attempt 2
+2026-11-12 08:02:47 INFO  http: POST /loans 201 843ms
+2026-11-12 08:02:52 INFO  cache: evicted 16 entries
+2026-11-12 08:02:53 DEBUG db: query took 262ms
+2026-11-12 08:02:56 WARN  http: slow request GET /search 738ms
+2026-11-12 08:03:09 INFO  db: pool size 63
+2026-11-12 08:03:12 ERROR auth: token expired user=ken
+2026-11-12 08:03:13 INFO  db: pool size 21
+2026-11-12 08:03:16 INFO  db: pool size 51
+2026-11-12 08:03:29 WARN  auth: bad password user=ada
+2026-11-12 08:03:37 ERROR worker: job 696 failed: disk full
+2026-11-12 08:03:45 ERROR db: timeout after 525ms
+2026-11-12 08:03:48 INFO  worker: job 775 done in 754ms
+2026-11-12 08:03:56 DEBUG cache: miss key=book:162
+2026-11-12 08:03:58 INFO  worker: job 146 done in 779ms
+2026-11-12 08:04:11 INFO  http: GET /books 200 817ms
+2026-11-12 08:04:16 ERROR db: timeout after 875ms
+2026-11-12 08:04:18 INFO  auth: login ok user=grace
+2026-11-12 08:04:19 INFO  http: GET /loans 200 630ms
+2026-11-12 08:04:32 INFO  http: POST /loans 404 617ms
+2026-11-12 08:04:40 WARN  auth: bad password user=ada
+2026-11-12 08:04:41 INFO  auth: login ok user=grace
+2026-11-12 08:04:42 INFO  http: POST /loans 201 224ms
+2026-11-12 08:04:44 INFO  http: GET /loans 200 796ms
+2026-11-12 08:04:49 INFO  http: GET /books 200 459ms
+2026-11-12 08:04:51 INFO  cache: evicted 55 entries
+2026-11-12 08:05:04 INFO  cache: evicted 50 entries
+2026-11-12 08:05:09 INFO  cache: evicted 63 entries
+2026-11-12 08:05:10 INFO  cache: evicted 64 entries
+2026-11-12 08:05:13 INFO  http: GET /loans 404 558ms
+2026-11-12 08:05:18 INFO  auth: login ok user=linus
+2026-11-12 08:05:26 INFO  http: GET /books 200 807ms
+2026-11-12 08:05:29 WARN  http: slow request GET /search 683ms
+2026-11-12 08:05:30 INFO  http: POST /loans 200 375ms
+2026-11-12 08:05:31 INFO  cache: evicted 17 entries
+2026-11-12 08:05:36 INFO  worker: job 889 done in 765ms
+2026-11-12 08:05:38 INFO  db: pool size 61
+2026-11-12 08:05:51 DEBUG cache: hit key=book:288
+2026-11-12 08:06:04 INFO  http: GET /books 200 342ms
+2026-11-12 08:06:12 INFO  worker: job 506 done in 782ms
+2026-11-12 08:06:14 INFO  worker: job 755 done in 749ms
+2026-11-12 08:06:19 INFO  http: POST /loans 200 490ms
+2026-11-12 08:06:32 INFO  http: POST /loans 200 722ms
+2026-11-12 08:06:33 INFO  http: GET /loans 200 827ms
+2026-11-12 08:06:36 INFO  http: POST /loans 201 433ms
+2026-11-12 08:06:39 WARN  worker: job 986 queued for 755ms
+2026-11-12 08:06:52 DEBUG cache: miss key=book:800
+2026-11-12 08:06:55 INFO  http: GET /books 200 204ms
+2026-11-12 08:06:56 DEBUG cache: hit key=book:855
+2026-11-12 08:06:59 INFO  auth: login ok user=grace
+2026-11-12 08:07:00 INFO  http: GET /books 200 255ms
+2026-11-12 08:07:05 INFO  http: GET /loans 200 894ms
+2026-11-12 08:07:06 INFO  http: POST /loans 201 871ms
+2026-11-12 08:07:07 INFO  http: GET /loans 200 341ms
+2026-11-12 08:07:20 WARN  auth: bad password user=linus
+2026-11-12 08:07:33 WARN  worker: job 419 queued for 768ms
+2026-11-12 08:07:34 INFO  auth: login ok user=ken
+2026-11-12 08:07:37 WARN  auth: bad password user=grace
+2026-11-12 08:07:38 INFO  http: POST /loans 404 94ms
+2026-11-12 08:07:41 INFO  http: GET /loans 200 539ms
+2026-11-12 08:07:43 DEBUG cache: miss key=book:822
+2026-11-12 08:07:44 INFO  http: GET /books 200 800ms
+2026-11-12 08:07:45 INFO  cache: evicted 31 entries
+2026-11-12 08:07:46 INFO  worker: job 987 done in 597ms
+2026-11-12 08:07:47 INFO  http: POST /loans 404 835ms
+2026-11-12 08:07:48 INFO  http: GET /loans 404 430ms
+2026-11-12 08:07:49 INFO  auth: login ok user=barbara
+2026-11-12 08:07:51 INFO  cache: evicted 42 entries
+2026-11-12 08:08:04 INFO  worker: job 195 done in 572ms
+2026-11-12 08:08:05 INFO  http: GET /loans 200 256ms
+2026-11-12 08:08:06 INFO  worker: job 379 done in 772ms
+2026-11-12 08:08:19 INFO  http: GET /loans 201 550ms
+2026-11-12 08:08:24 INFO  cache: evicted 29 entries
+2026-11-12 08:08:26 INFO  worker: job 226 done in 487ms
+2026-11-12 08:08:31 DEBUG cache: hit key=book:737
+2026-11-12 08:08:32 INFO  worker: job 784 done in 321ms
+2026-11-12 08:08:45 INFO  http: POST /loans 200 711ms
+2026-11-12 08:08:47 INFO  http: GET /books 201 146ms
+2026-11-12 08:08:55 INFO  db: pool size 33
+2026-11-12 08:08:56 DEBUG db: query took 607ms
+2026-11-12 08:08:57 WARN  db: retrying query, attempt 2
+2026-11-12 08:09:00 INFO  cache: evicted 8 entries
+2026-11-12 08:09:03 INFO  auth: login ok user=ada
+2026-11-12 08:09:05 INFO  worker: job 894 done in 862ms
+2026-11-12 08:09:13 ERROR worker: job 580 failed: disk full
+2026-11-12 08:09:15 INFO  http: GET /books 200 858ms
+2026-11-12 08:09:18 WARN  http: slow request GET /search 230ms
+2026-11-12 08:09:23 INFO  cache: evicted 46 entries
+2026-11-12 08:09:36 INFO  db: pool size 25
+2026-11-12 08:09:37 INFO  auth: login ok user=grace
+2026-11-12 08:09:38 INFO  http: GET /loans 200 517ms
+2026-11-12 08:09:39 INFO  http: GET /loans 201 649ms
+2026-11-12 08:09:47 INFO  http: GET /loans 200 700ms
+2026-11-12 08:09:50 INFO  worker: job 521 done in 446ms
+2026-11-12 08:09:55 INFO  db: pool size 34
+2026-11-12 08:09:56 INFO  http: POST /loans 201 482ms
+2026-11-12 08:09:57 INFO  http: GET /books 404 802ms
+2026-11-12 08:09:58 INFO  http: POST /loans 404 256ms
+2026-11-12 08:10:00 INFO  auth: login ok user=linus
+2026-11-12 08:10:05 INFO  worker: job 424 done in 332ms
+2026-11-12 08:10:18 INFO  cache: evicted 54 entries
+2026-11-12 08:10:19 DEBUG cache: miss key=book:233
+2026-11-12 08:10:20 WARN  db: retrying query, attempt 2
+2026-11-12 08:10:23 INFO  http: GET /books 200 284ms
+2026-11-12 08:10:36 INFO  http: POST /loans 200 882ms
+2026-11-12 08:10:37 INFO  http: POST /loans 200 196ms
+2026-11-12 08:10:50 INFO  db: pool size 41
+2026-11-12 08:11:03 INFO  http: GET /loans 201 71ms
+2026-11-12 08:11:05 ERROR http: GET /books/656 500 161ms
+2026-11-12 08:11:10 DEBUG cache: miss key=book:710
+2026-11-12 08:11:18 INFO  http: GET /loans 200 803ms
+2026-11-12 08:11:20 INFO  db: pool size 44
+2026-11-12 08:11:28 INFO  cache: evicted 36 entries
+2026-11-12 08:11:29 DEBUG cache: hit key=book:316
+2026-11-12 08:11:32 INFO  http: GET /loans 200 703ms
+2026-11-12 08:11:45 INFO  http: GET /loans 201 18ms
+2026-11-12 08:11:58 INFO  db: pool size 21
+2026-11-12 08:12:01 INFO  db: pool size 12
+2026-11-12 08:12:02 DEBUG cache: hit key=book:457
+2026-11-12 08:12:03 INFO  http: GET /books 200 628ms
+2026-11-12 08:12:04 DEBUG db: query took 874ms
+2026-11-12 08:12:12 INFO  http: POST /loans 200 329ms
+2026-11-12 08:12:20 INFO  http: GET /loans 404 799ms
+2026-11-12 08:12:21 INFO  http: GET /books 201 638ms
+2026-11-12 08:12:34 INFO  auth: login ok user=grace
+2026-11-12 08:12:36 INFO  http: POST /loans 200 169ms
+2026-11-12 08:12:44 WARN  db: retrying query, attempt 3
+2026-11-12 08:12:52 INFO  http: POST /loans 404 176ms
+2026-11-12 08:12:53 INFO  auth: login ok user=barbara
+2026-11-12 08:12:55 INFO  http: GET /books 200 105ms
+2026-11-12 08:13:00 INFO  db: pool size 47
+2026-11-12 08:13:13 INFO  http: POST /loans 200 35ms
+2026-11-12 08:13:14 INFO  http: POST /loans 200 596ms
+2026-11-12 08:13:17 ERROR auth: token expired user=ada
+2026-11-12 08:13:20 WARN  auth: bad password user=ken
+2026-11-12 08:13:25 WARN  http: slow request GET /search 341ms
+2026-11-12 08:13:38 WARN  worker: job 971 queued for 663ms
+2026-11-12 08:13:40 INFO  http: GET /books 200 532ms
+2026-11-12 08:13:43 WARN  http: slow request GET /search 878ms
+2026-11-12 08:13:48 WARN  db: retrying query, attempt 3
+2026-11-12 08:13:53 INFO  http: GET /loans 200 881ms
+2026-11-12 08:13:55 INFO  cache: evicted 5 entries
+2026-11-12 08:14:03 INFO  cache: evicted 51 entries
+2026-11-12 08:14:08 WARN  worker: job 659 queued for 356ms
+2026-11-12 08:14:11 ERROR http: GET /books/651 500 821ms
+2026-11-12 08:14:12 INFO  http: GET /books 200 837ms
+2026-11-12 08:14:17 INFO  db: pool size 29
+2026-11-12 08:14:18 DEBUG db: query took 109ms
+2026-11-12 08:14:19 INFO  cache: evicted 21 entries
+2026-11-12 08:14:24 INFO  auth: login ok user=grace
+2026-11-12 08:14:29 WARN  db: retrying query, attempt 1
+2026-11-12 08:14:37 INFO  http: GET /books 200 412ms
+2026-11-12 08:14:45 INFO  http: POST /loans 201 705ms
+2026-11-12 08:14:48 INFO  auth: login ok user=grace
+2026-11-12 08:14:50 INFO  http: GET /loans 201 462ms
+2026-11-12 08:14:55 DEBUG db: query took 738ms
+2026-11-12 08:14:58 INFO  db: pool size 27
+2026-11-12 08:15:01 INFO  db: pool size 34
+2026-11-12 08:15:02 INFO  auth: login ok user=ken
+2026-11-12 08:15:15 DEBUG cache: hit key=book:745
+2026-11-12 08:15:16 INFO  worker: job 704 done in 507ms
+2026-11-12 08:15:19 DEBUG cache: hit key=book:963
+2026-11-12 08:15:22 INFO  http: GET /loans 404 205ms
+2026-11-12 08:15:25 DEBUG db: query took 68ms
+2026-11-12 08:15:27 INFO  http: GET /loans 200 786ms
+2026-11-12 08:15:32 INFO  cache: evicted 4 entries
+2026-11-12 08:15:40 INFO  cache: evicted 54 entries
+2026-11-12 08:15:41 INFO  cache: evicted 24 entries
+2026-11-12 08:15:42 INFO  db: pool size 4
+2026-11-12 08:15:47 WARN  db: retrying query, attempt 3
+2026-11-12 08:15:49 INFO  auth: login ok user=ken
+2026-11-12 08:15:51 WARN  http: slow request GET /search 6ms
+2026-11-12 08:15:53 INFO  http: GET /books 200 331ms
+2026-11-12 08:15:54 INFO  auth: login ok user=grace
+2026-11-12 08:15:55 INFO  db: pool size 32
+2026-11-12 08:16:08 ERROR auth: token expired user=ken
+2026-11-12 08:16:13 INFO  cache: evicted 19 entries
+2026-11-12 08:16:15 INFO  db: pool size 30
+2026-11-12 08:16:16 INFO  http: POST /loans 200 417ms
+2026-11-12 08:16:17 INFO  worker: job 174 done in 873ms
+2026-11-12 08:16:25 INFO  worker: job 523 done in 475ms
+2026-11-12 08:16:26 INFO  http: POST /loans 404 821ms
+2026-11-12 08:16:39 INFO  auth: login ok user=ken
+2026-11-12 08:16:42 INFO  cache: evicted 25 entries
+2026-11-12 08:16:55 INFO  db: pool size 57
+2026-11-12 08:16:58 INFO  http: GET /books 200 58ms
+2026-11-12 08:17:11 INFO  http: POST /loans 200 689ms
+2026-11-12 08:17:14 INFO  db: pool size 51
+2026-11-12 08:17:16 INFO  http: POST /loans 200 278ms
+2026-11-12 08:17:18 DEBUG db: query took 190ms
+2026-11-12 08:17:31 INFO  http: GET /books 404 174ms
+2026-11-12 08:17:32 WARN  http: slow request GET /search 55ms
+2026-11-12 08:17:33 INFO  db: pool size 15
+2026-11-12 08:17:34 INFO  http: POST /loans 200 236ms
+2026-11-12 08:17:37 WARN  db: retrying query, attempt 2
+2026-11-12 08:17:39 INFO  db: pool size 37
+2026-11-12 08:17:44 INFO  auth: login ok user=ada
+2026-11-12 08:17:52 INFO  http: GET /loans 201 524ms
+2026-11-12 08:18:05 INFO  http: GET /books 404 671ms
+2026-11-12 08:18:06 INFO  http: GET /loans 200 635ms
+2026-11-12 08:18:07 DEBUG cache: miss key=book:273
+2026-11-12 08:18:09 INFO  http: POST /loans 201 379ms
+2026-11-12 08:18:10 WARN  db: retrying query, attempt 1
+2026-11-12 08:18:13 INFO  http: GET /loans 200 436ms
+2026-11-12 08:18:21 INFO  http: POST /loans 404 574ms
+2026-11-12 08:18:22 INFO  http: GET /loans 200 76ms
+2026-11-12 08:18:30 INFO  http: GET /loans 201 249ms
+2026-11-12 08:18:32 INFO  db: pool size 28
+2026-11-12 08:18:40 INFO  http: GET /loans 200 611ms
+2026-11-12 08:18:48 WARN  http: slow request GET /search 537ms
+2026-11-12 08:18:50 INFO  http: POST /loans 200 711ms
+2026-11-12 08:18:53 INFO  http: GET /books 200 221ms
+2026-11-12 08:18:54 INFO  auth: login ok user=ken
+2026-11-12 08:18:55 INFO  cache: evicted 62 entries
+2026-11-12 08:18:58 INFO  http: POST /loans 200 840ms
+2026-11-12 08:18:59 INFO  worker: job 591 done in 119ms
+2026-11-12 08:19:01 INFO  db: pool size 9
+2026-11-12 08:19:02 INFO  http: GET /loans 200 39ms
+2026-11-12 08:19:04 INFO  db: pool size 42
+2026-11-12 08:19:12 INFO  worker: job 553 done in 126ms
+2026-11-12 08:19:13 INFO  cache: evicted 60 entries
+2026-11-12 08:19:18 INFO  cache: evicted 39 entries
+2026-11-12 08:19:19 INFO  db: pool size 26
+2026-11-12 08:19:24 INFO  cache: evicted 41 entries
+2026-11-12 08:19:27 INFO  http: POST /loans 404 739ms
+2026-11-12 08:19:29 INFO  http: GET /books 200 407ms
+2026-11-12 08:19:37 INFO  auth: login ok user=ada
+2026-11-12 08:19:42 INFO  auth: login ok user=grace
+2026-11-12 08:19:43 INFO  auth: login ok user=ken
+2026-11-12 08:19:48 ERROR http: GET /books/962 500 574ms
+2026-11-12 08:19:50 INFO  http: GET /loans 201 634ms
+2026-11-12 08:19:51 INFO  http: POST /loans 200 352ms
+2026-11-12 08:19:52 INFO  http: GET /loans 200 272ms
+2026-11-12 08:19:55 INFO  http: GET /books 404 664ms
+2026-11-12 08:20:08 DEBUG cache: hit key=book:207
+2026-11-12 08:20:09 INFO  http: POST /loans 200 290ms
+2026-11-12 08:20:14 INFO  auth: login ok user=linus
+2026-11-12 08:20:15 ERROR auth: token expired user=ken
+2026-11-12 08:20:18 INFO  cache: evicted 52 entries
+2026-11-12 08:20:21 INFO  http: POST /loans 200 662ms
+2026-11-12 08:20:23 INFO  http: POST /loans 404 72ms
+2026-11-12 08:20:24 INFO  http: GET /loans 200 325ms
+2026-11-12 08:20:25 DEBUG db: query took 2ms
+2026-11-12 08:20:27 INFO  http: GET /books 201 45ms
+2026-11-12 08:20:40 INFO  db: pool size 55
+2026-11-12 08:20:43 ERROR auth: token expired user=barbara
+2026-11-12 08:20:51 INFO  http: GET /books 201 559ms
+2026-11-12 08:20:52 DEBUG cache: miss key=book:436
+2026-11-12 08:20:57 INFO  db: pool size 53
+2026-11-12 08:20:58 INFO  http: GET /books 201 564ms
+2026-11-12 08:20:59 INFO  cache: evicted 62 entries
+2026-11-12 08:21:01 INFO  http: POST /loans 200 509ms
+2026-11-12 08:21:14 INFO  http: POST /loans 201 288ms
+2026-11-12 08:21:22 INFO  auth: login ok user=ada
+2026-11-12 08:21:30 INFO  http: POST /loans 200 453ms
+2026-11-12 08:21:32 INFO  auth: login ok user=linus
+2026-11-12 08:21:40 INFO  auth: login ok user=ken
+2026-11-12 08:21:41 INFO  db: pool size 52
+2026-11-12 08:21:43 INFO  cache: evicted 25 entries
+2026-11-12 08:21:44 INFO  http: GET /books 404 629ms
+2026-11-12 08:21:45 INFO  worker: job 803 done in 671ms
+2026-11-12 08:21:48 INFO  auth: login ok user=ken
+2026-11-12 08:21:49 INFO  http: POST /loans 200 109ms
+2026-11-12 08:21:50 INFO  http: GET /books 200 31ms
+2026-11-12 08:21:51 INFO  db: pool size 50
+2026-11-12 08:21:52 DEBUG db: query took 818ms
+2026-11-12 08:21:55 ERROR db: timeout after 327ms
+2026-11-12 08:21:56 INFO  http: GET /books 200 751ms
+2026-11-12 08:21:57 INFO  auth: login ok user=barbara
+2026-11-12 08:21:59 DEBUG cache: miss key=book:258
+2026-11-12 08:22:00 INFO  http: POST /loans 200 464ms
+2026-11-12 08:22:13 INFO  http: GET /loans 201 896ms
+2026-11-12 08:22:26 DEBUG db: query took 413ms
+2026-11-12 08:22:31 INFO  worker: job 252 done in 246ms
+2026-11-12 08:22:33 INFO  worker: job 293 done in 690ms
+2026-11-12 08:22:46 DEBUG cache: miss key=book:158
+2026-11-12 08:22:59 INFO  db: pool size 49
+2026-11-12 08:23:00 INFO  http: POST /loans 200 741ms
+2026-11-12 08:23:03 INFO  http: GET /books 200 145ms
+2026-11-12 08:23:11 INFO  http: GET /books 200 197ms
+2026-11-12 08:23:13 INFO  cache: evicted 15 entries
+2026-11-12 08:23:16 INFO  http: GET /books 404 880ms
+2026-11-12 08:23:18 INFO  db: pool size 9
+2026-11-12 08:23:19 INFO  http: POST /loans 404 181ms
+2026-11-12 08:23:20 INFO  http: POST /loans 404 727ms
+2026-11-12 08:23:33 INFO  worker: job 431 done in 414ms
+2026-11-12 08:23:36 ERROR db: timeout after 687ms
+2026-11-12 08:23:39 INFO  http: GET /books 200 883ms
+2026-11-12 08:23:41 INFO  http: GET /books 200 90ms
+2026-11-12 08:23:54 INFO  db: pool size 52
+2026-11-12 08:24:02 INFO  http: GET /books 200 35ms
+2026-11-12 08:24:10 INFO  cache: evicted 34 entries
+2026-11-12 08:24:12 INFO  worker: job 787 done in 608ms
+2026-11-12 08:24:15 INFO  db: pool size 11
+2026-11-12 08:24:17 INFO  db: pool size 5
+2026-11-12 08:24:30 DEBUG cache: miss key=book:425
+2026-11-12 08:24:43 INFO  http: GET /loans 200 561ms
+2026-11-12 08:24:44 ERROR http: GET /books/823 500 224ms
+2026-11-12 08:24:47 INFO  http: GET /books 200 778ms
+2026-11-12 08:25:00 INFO  http: POST /loans 200 659ms
+2026-11-12 08:25:03 INFO  cache: evicted 17 entries
+2026-11-12 08:25:16 INFO  cache: evicted 24 entries
+2026-11-12 08:25:18 INFO  http: GET /loans 200 449ms
+2026-11-12 08:25:26 INFO  http: GET /loans 200 538ms
+2026-11-12 08:25:39 INFO  cache: evicted 22 entries
+2026-11-12 08:25:44 DEBUG cache: hit key=book:425
+2026-11-12 08:25:49 WARN  http: slow request GET /search 71ms
+2026-11-12 08:25:57 INFO  db: pool size 40
+2026-11-12 08:25:58 WARN  http: slow request GET /search 798ms
+2026-11-12 08:25:59 INFO  cache: evicted 62 entries
+2026-11-12 08:26:00 INFO  worker: job 301 done in 476ms
+2026-11-12 08:26:01 WARN  db: retrying query, attempt 3
+2026-11-12 08:26:04 INFO  db: pool size 57
+2026-11-12 08:26:05 WARN  db: retrying query, attempt 2
+2026-11-12 08:26:13 INFO  db: pool size 61
+2026-11-12 08:26:15 INFO  http: POST /loans 200 493ms
+2026-11-12 08:26:16 ERROR db: timeout after 732ms
+2026-11-12 08:26:21 INFO  http: POST /loans 200 421ms
+2026-11-12 08:26:34 INFO  http: POST /loans 200 757ms
+2026-11-12 08:26:47 WARN  worker: job 482 queued for 173ms
+2026-11-12 08:27:00 ERROR auth: token expired user=grace
+2026-11-12 08:27:05 INFO  db: pool size 8
+2026-11-12 08:27:13 INFO  http: GET /loans 201 466ms
+2026-11-12 08:27:16 INFO  http: GET /books 200 142ms
+2026-11-12 08:27:29 INFO  http: POST /loans 404 711ms
+2026-11-12 08:27:30 INFO  db: pool size 31
+2026-11-12 08:27:35 INFO  http: GET /books 201 174ms
+2026-11-12 08:27:36 WARN  db: retrying query, attempt 3
+2026-11-12 08:27:39 INFO  http: GET /books 200 99ms
+2026-11-12 08:27:40 INFO  cache: evicted 37 entries
+2026-11-12 08:27:41 INFO  cache: evicted 57 entries
+2026-11-12 08:27:54 INFO  http: GET /loans 201 44ms
+2026-11-12 08:27:56 INFO  http: GET /loans 200 300ms
+2026-11-12 08:27:57 DEBUG cache: hit key=book:787
+2026-11-12 08:27:59 INFO  cache: evicted 24 entries
+2026-11-12 08:28:04 INFO  cache: evicted 32 entries
+2026-11-12 08:28:09 INFO  db: pool size 14
+2026-11-12 08:28:17 INFO  http: GET /books 200 494ms
+2026-11-12 08:28:22 INFO  auth: login ok user=linus
+2026-11-12 08:28:27 INFO  auth: login ok user=grace
+2026-11-12 08:28:28 INFO  db: pool size 50
+2026-11-12 08:28:30 INFO  cache: evicted 16 entries
+2026-11-12 08:28:31 INFO  http: POST /loans 404 160ms
+2026-11-12 08:28:32 INFO  db: pool size 56
+2026-11-12 08:28:40 INFO  db: pool size 39
+2026-11-12 08:28:42 INFO  http: GET /books 200 224ms
+2026-11-12 08:28:55 INFO  db: pool size 14
+2026-11-12 08:28:58 INFO  worker: job 947 done in 193ms
+2026-11-12 08:29:00 INFO  http: GET /books 201 628ms
+2026-11-12 08:29:03 INFO  auth: login ok user=linus
+2026-11-12 08:29:04 INFO  http: POST /loans 200 839ms
+2026-11-12 08:29:17 INFO  db: pool size 26
+2026-11-12 08:29:19 INFO  auth: login ok user=barbara
+2026-11-12 08:29:20 WARN  worker: job 416 queued for 82ms
+2026-11-12 08:29:23 WARN  worker: job 251 queued for 85ms
+2026-11-12 08:29:31 INFO  http: GET /books 201 266ms
+2026-11-12 08:29:34 INFO  http: GET /books 200 465ms
+2026-11-12 08:29:35 INFO  db: pool size 54
+2026-11-12 08:29:48 WARN  db: retrying query, attempt 3
+2026-11-12 08:29:50 INFO  auth: login ok user=ada
+2026-11-12 08:29:51 INFO  http: GET /books 404 54ms
+2026-11-12 08:29:56 INFO  cache: evicted 49 entries
+2026-11-12 08:29:57 INFO  http: POST /loans 200 449ms
+2026-11-12 08:30:02 INFO  http: POST /loans 201 258ms
+2026-11-12 08:30:15 INFO  cache: evicted 42 entries
+2026-11-12 08:30:20 DEBUG db: query took 830ms
+2026-11-12 08:30:33 DEBUG db: query took 639ms
+2026-11-12 08:30:46 INFO  http: GET /loans 404 345ms
+2026-11-12 08:30:54 INFO  http: GET /books 200 487ms
+2026-11-12 08:30:56 DEBUG db: query took 71ms
+2026-11-12 08:31:04 INFO  worker: job 108 done in 675ms
+2026-11-12 08:31:05 WARN  http: slow request GET /search 386ms
+2026-11-12 08:31:18 INFO  db: pool size 25
+2026-11-12 08:31:19 INFO  http: GET /books 404 326ms
+2026-11-12 08:31:22 DEBUG db: query took 362ms
+2026-11-12 08:31:25 INFO  http: GET /loans 200 308ms
+2026-11-12 08:31:30 WARN  db: retrying query, attempt 2
+2026-11-12 08:31:38 INFO  worker: job 526 done in 401ms
+2026-11-12 08:31:39 INFO  worker: job 520 done in 340ms
+2026-11-12 08:31:52 INFO  auth: login ok user=grace
+2026-11-12 08:32:05 INFO  db: pool size 10
+2026-11-12 08:32:06 INFO  db: pool size 49
+2026-11-12 08:32:08 INFO  worker: job 192 done in 547ms
+2026-11-12 08:32:13 INFO  http: GET /loans 200 773ms
+2026-11-12 08:32:14 ERROR worker: job 706 failed: disk full
+2026-11-12 08:32:19 INFO  http: POST /loans 200 876ms
+2026-11-12 08:32:21 INFO  http: POST /loans 404 698ms
+2026-11-12 08:32:22 INFO  auth: login ok user=grace
+2026-11-12 08:32:30 INFO  http: GET /loans 200 167ms
+2026-11-12 08:32:38 INFO  http: POST /loans 200 54ms
+2026-11-12 08:32:46 INFO  http: GET /books 404 507ms
+2026-11-12 08:32:59 WARN  db: retrying query, attempt 2
+2026-11-12 08:33:01 INFO  db: pool size 31
+2026-11-12 08:33:02 INFO  cache: evicted 21 entries
+2026-11-12 08:33:04 ERROR db: timeout after 196ms
+2026-11-12 08:33:05 INFO  auth: login ok user=ken
+2026-11-12 08:33:06 INFO  http: GET /books 404 34ms
+2026-11-12 08:33:09 INFO  http: POST /loans 200 640ms
+2026-11-12 08:33:10 DEBUG cache: hit key=book:442
+2026-11-12 08:33:15 INFO  cache: evicted 62 entries
+2026-11-12 08:33:23 INFO  http: GET /books 404 562ms
+2026-11-12 08:33:25 INFO  auth: login ok user=ada
+2026-11-12 08:33:30 INFO  http: GET /loans 201 197ms
+2026-11-12 08:33:31 INFO  http: GET /loans 201 541ms
+2026-11-12 08:33:32 INFO  http: GET /books 404 291ms
+2026-11-12 08:33:33 INFO  http: GET /books 200 609ms
+2026-11-12 08:33:35 INFO  worker: job 764 done in 231ms
+2026-11-12 08:33:40 INFO  http: GET /books 201 133ms
+2026-11-12 08:33:43 WARN  auth: bad password user=barbara
+2026-11-12 08:33:44 INFO  http: GET /books 200 629ms
+2026-11-12 08:33:52 INFO  http: GET /books 200 70ms
+2026-11-12 08:34:00 INFO  auth: login ok user=grace
+2026-11-12 08:34:13 INFO  worker: job 627 done in 99ms
+2026-11-12 08:34:14 WARN  worker: job 324 queued for 635ms
+2026-11-12 08:34:15 INFO  http: GET /books 201 293ms
+2026-11-12 08:34:16 INFO  auth: login ok user=linus
+2026-11-12 08:34:24 INFO  http: POST /loans 200 665ms
+2026-11-12 08:34:26 INFO  http: GET /loans 200 665ms
+2026-11-12 08:34:27 DEBUG db: query took 243ms
+2026-11-12 08:34:28 DEBUG db: query took 543ms
+2026-11-12 08:34:30 INFO  http: GET /books 200 682ms
+2026-11-12 08:34:43 INFO  cache: evicted 49 entries
+2026-11-12 08:34:44 INFO  http: GET /books 200 367ms
+2026-11-12 08:34:45 INFO  cache: evicted 6 entries
+2026-11-12 08:34:47 WARN  db: retrying query, attempt 2
+2026-11-12 08:34:48 INFO  http: GET /books 200 575ms
+2026-11-12 08:34:50 INFO  http: GET /books 200 205ms
+2026-11-12 08:34:51 INFO  db: pool size 11
+2026-11-12 08:34:52 INFO  db: pool size 10
+2026-11-12 08:35:05 INFO  http: POST /loans 201 435ms
+2026-11-12 08:35:18 INFO  auth: login ok user=ada
+2026-11-12 08:35:20 INFO  cache: evicted 11 entries
+2026-11-12 08:35:21 INFO  db: pool size 14
+2026-11-12 08:35:26 WARN  auth: bad password user=ken
+2026-11-12 08:35:29 INFO  http: GET /books 200 401ms
+2026-11-12 08:35:32 INFO  worker: job 754 done in 837ms
+2026-11-12 08:35:34 INFO  cache: evicted 17 entries
+2026-11-12 08:35:35 INFO  http: POST /loans 404 344ms
+2026-11-12 08:35:43 INFO  http: GET /books 200 844ms
+2026-11-12 08:35:51 DEBUG cache: miss key=book:495
+2026-11-12 08:36:04 ERROR http: GET /books/623 500 652ms
+2026-11-12 08:36:17 INFO  http: GET /loans 200 111ms
+2026-11-12 08:36:20 INFO  cache: evicted 35 entries
+2026-11-12 08:36:22 INFO  cache: evicted 49 entries
+2026-11-12 08:36:24 INFO  http: GET /loans 201 326ms
+2026-11-12 08:36:27 INFO  worker: job 181 done in 183ms
+2026-11-12 08:36:32 INFO  auth: login ok user=barbara
+2026-11-12 08:36:35 INFO  auth: login ok user=linus
+2026-11-12 08:36:40 INFO  auth: login ok user=ada
+2026-11-12 08:36:48 DEBUG cache: hit key=book:851
+2026-11-12 08:36:53 INFO  http: GET /books 200 367ms
+2026-11-12 08:37:06 INFO  http: GET /loans 200 455ms
+2026-11-12 08:37:14 INFO  cache: evicted 34 entries
+2026-11-12 08:37:17 INFO  http: GET /loans 200 135ms
+2026-11-12 08:37:18 INFO  db: pool size 34
+2026-11-12 08:37:26 INFO  http: GET /books 200 473ms
+2026-11-12 08:37:31 INFO  worker: job 859 done in 588ms
+2026-11-12 08:37:44 DEBUG cache: miss key=book:829
+2026-11-12 08:37:45 INFO  auth: login ok user=ada
+2026-11-12 08:37:48 INFO  cache: evicted 12 entries
+2026-11-12 08:37:49 INFO  cache: evicted 16 entries
+2026-11-12 08:37:52 INFO  auth: login ok user=barbara
+2026-11-12 08:38:05 WARN  http: slow request GET /search 57ms
+2026-11-12 08:38:06 WARN  worker: job 702 queued for 229ms
+2026-11-12 08:38:14 INFO  cache: evicted 20 entries
+2026-11-12 08:38:27 WARN  db: retrying query, attempt 3
+2026-11-12 08:38:28 DEBUG cache: hit key=book:913
+2026-11-12 08:38:36 INFO  cache: evicted 8 entries
+2026-11-12 08:38:37 INFO  http: GET /books 200 602ms
+2026-11-12 08:38:38 INFO  db: pool size 56
+2026-11-12 08:38:51 DEBUG cache: miss key=book:810
+2026-11-12 08:38:54 INFO  cache: evicted 25 entries
+2026-11-12 08:38:55 INFO  cache: evicted 11 entries
+2026-11-12 08:39:08 INFO  http: GET /loans 404 76ms
+2026-11-12 08:39:13 DEBUG cache: hit key=book:286
+2026-11-12 08:39:26 INFO  worker: job 986 done in 42ms
+2026-11-12 08:39:34 INFO  auth: login ok user=ada
+2026-11-12 08:39:37 INFO  http: POST /loans 200 869ms
+2026-11-12 08:39:38 INFO  http: GET /loans 201 727ms
+2026-11-12 08:39:39 WARN  db: retrying query, attempt 3
+2026-11-12 08:39:40 INFO  auth: login ok user=linus
+2026-11-12 08:39:43 INFO  http: GET /loans 200 347ms
+2026-11-12 08:39:51 ERROR auth: token expired user=barbara
+2026-11-12 08:39:59 INFO  http: GET /books 201 237ms
+2026-11-12 08:40:02 ERROR auth: token expired user=barbara
+2026-11-12 08:40:05 INFO  http: GET /loans 201 31ms
+2026-11-12 08:40:10 ERROR db: timeout after 148ms
+2026-11-12 08:40:12 INFO  http: GET /loans 200 513ms
+2026-11-12 08:40:20 INFO  http: POST /loans 200 557ms
+2026-11-12 08:40:22 INFO  db: pool size 63
+2026-11-12 08:40:23 INFO  auth: login ok user=linus
+2026-11-12 08:40:24 INFO  http: GET /loans 200 51ms
+2026-11-12 08:40:32 INFO  cache: evicted 35 entries
+2026-11-12 08:40:45 INFO  http: GET /loans 201 614ms
+2026-11-12 08:40:47 INFO  http: GET /books 404 531ms
+2026-11-12 08:40:48 WARN  worker: job 565 queued for 72ms
+2026-11-12 08:40:53 INFO  http: GET /loans 200 667ms
+2026-11-12 08:40:58 DEBUG db: query took 588ms
+2026-11-12 08:41:06 INFO  db: pool size 42
+2026-11-12 08:41:07 INFO  db: pool size 46
+2026-11-12 08:41:12 INFO  db: pool size 10
+2026-11-12 08:41:17 INFO  http: GET /loans 201 414ms
+2026-11-12 08:41:18 INFO  http: POST /loans 200 389ms
+2026-11-12 08:41:20 INFO  db: pool size 51
+2026-11-12 08:41:21 INFO  auth: login ok user=grace
+2026-11-12 08:41:22 INFO  cache: evicted 17 entries
+2026-11-12 08:41:35 INFO  http: POST /loans 200 467ms
+2026-11-12 08:41:37 INFO  http: POST /loans 200 698ms
+2026-11-12 08:41:50 INFO  http: GET /loans 200 581ms
+2026-11-12 08:41:58 INFO  worker: job 264 done in 886ms
+2026-11-12 08:42:00 INFO  cache: evicted 55 entries
+2026-11-12 08:42:05 INFO  http: POST /loans 200 675ms
+2026-11-12 08:42:08 ERROR worker: job 294 failed: disk full
+2026-11-12 08:42:13 INFO  http: POST /loans 200 244ms
+2026-11-12 08:42:18 INFO  http: GET /loans 200 399ms
+2026-11-12 08:42:19 INFO  http: POST /loans 200 658ms
+2026-11-12 08:42:27 INFO  http: POST /loans 200 664ms
+2026-11-12 08:42:28 INFO  http: GET /loans 200 452ms
+2026-11-12 08:42:36 INFO  worker: job 571 done in 637ms
+2026-11-12 08:42:37 DEBUG cache: miss key=book:381
+2026-11-12 08:42:50 INFO  db: pool size 14
+2026-11-12 08:42:52 DEBUG cache: hit key=book:545
+2026-11-12 08:42:55 INFO  db: pool size 38
+2026-11-12 08:42:56 INFO  http: GET /books 201 196ms
+2026-11-12 08:42:58 DEBUG db: query took 178ms
+2026-11-12 08:43:01 INFO  cache: evicted 21 entries
+2026-11-12 08:43:06 INFO  db: pool size 14
+2026-11-12 08:43:14 INFO  worker: job 260 done in 188ms
+2026-11-12 08:43:22 DEBUG cache: miss key=book:285
+2026-11-12 08:43:35 ERROR http: GET /books/550 500 375ms
+2026-11-12 08:43:37 INFO  http: POST /loans 404 724ms
+2026-11-12 08:43:38 INFO  db: pool size 21
+2026-11-12 08:43:41 INFO  cache: evicted 16 entries
+2026-11-12 08:43:42 WARN  http: slow request GET /search 427ms
+2026-11-12 08:43:43 INFO  cache: evicted 45 entries
+2026-11-12 08:43:46 INFO  http: GET /books 200 339ms
+2026-11-12 08:43:48 INFO  worker: job 205 done in 692ms
+2026-11-12 08:43:53 INFO  auth: login ok user=linus
+2026-11-12 08:44:06 INFO  auth: login ok user=grace
+2026-11-12 08:44:09 INFO  http: POST /loans 201 668ms
+2026-11-12 08:44:14 INFO  db: pool size 43
+2026-11-12 08:44:16 INFO  http: GET /loans 404 481ms
+2026-11-12 08:44:17 INFO  http: GET /loans 200 286ms
+2026-11-12 08:44:20 INFO  db: pool size 40
+2026-11-12 08:44:22 INFO  http: POST /loans 200 112ms
+2026-11-12 08:44:25 INFO  auth: login ok user=barbara
+2026-11-12 08:44:33 INFO  db: pool size 50
+2026-11-12 08:44:41 INFO  http: POST /loans 201 542ms
+2026-11-12 08:44:49 ERROR db: timeout after 665ms
+2026-11-12 08:44:52 INFO  http: POST /loans 404 860ms
+2026-11-12 08:45:00 INFO  http: POST /loans 200 820ms
+2026-11-12 08:45:13 DEBUG db: query took 470ms
+2026-11-12 08:45:26 INFO  http: GET /loans 200 338ms
+2026-11-12 08:45:34 INFO  http: GET /books 404 632ms
+2026-11-12 08:45:36 INFO  http: POST /loans 200 56ms
+2026-11-12 08:45:37 INFO  auth: login ok user=ada
+2026-11-12 08:45:38 INFO  auth: login ok user=barbara
+2026-11-12 08:45:43 DEBUG cache: hit key=book:691
+2026-11-12 08:45:51 INFO  http: POST /loans 200 665ms
+2026-11-12 08:45:56 INFO  http: GET /loans 200 697ms
+2026-11-12 08:45:57 INFO  db: pool size 26
+2026-11-12 08:46:05 INFO  http: GET /books 200 454ms
+2026-11-12 08:46:18 INFO  worker: job 780 done in 230ms
+2026-11-12 08:46:19 INFO  http: GET /books 200 716ms
+2026-11-12 08:46:27 INFO  http: GET /books 200 368ms
+2026-11-12 08:46:28 INFO  http: GET /books 201 77ms
+2026-11-12 08:46:33 INFO  http: POST /loans 200 361ms
+2026-11-12 08:46:34 INFO  http: POST /loans 404 591ms
+2026-11-12 08:46:36 WARN  auth: bad password user=linus
+2026-11-12 08:46:37 DEBUG cache: miss key=book:135
+2026-11-12 08:46:40 WARN  db: retrying query, attempt 3
+2026-11-12 08:46:48 INFO  cache: evicted 43 entries
+2026-11-12 08:46:56 INFO  http: GET /loans 200 109ms
+2026-11-12 08:46:57 INFO  worker: job 263 done in 189ms
+2026-11-12 08:46:58 INFO  db: pool size 14
+2026-11-12 08:46:59 INFO  http: GET /loans 404 208ms
+2026-11-12 08:47:12 INFO  http: POST /loans 200 267ms
+2026-11-12 08:47:14 INFO  auth: login ok user=barbara
+2026-11-12 08:47:22 INFO  db: pool size 31
+2026-11-12 08:47:25 INFO  db: pool size 37
+2026-11-12 08:47:27 INFO  cache: evicted 11 entries
+2026-11-12 08:47:35 INFO  http: GET /loans 200 693ms
+2026-11-12 08:47:40 INFO  http: POST /loans 200 256ms
+2026-11-12 08:47:53 INFO  http: GET /loans 201 66ms
+2026-11-12 08:47:55 DEBUG db: query took 893ms
+2026-11-12 08:47:58 ERROR http: GET /books/187 500 834ms
+2026-11-12 08:48:06 INFO  auth: login ok user=ada
+2026-11-12 08:48:08 INFO  http: GET /loans 404 547ms
+2026-11-12 08:48:10 WARN  auth: bad password user=ada
+2026-11-12 08:48:15 INFO  db: pool size 32
+2026-11-12 08:48:18 INFO  db: pool size 14
+2026-11-12 08:48:19 INFO  db: pool size 47
+2026-11-12 08:48:20 INFO  http: GET /books 200 59ms
+2026-11-12 08:48:25 WARN  http: slow request GET /search 681ms
+2026-11-12 08:48:38 INFO  cache: evicted 46 entries
+2026-11-12 08:48:43 INFO  http: GET /books 200 878ms
+2026-11-12 08:48:46 INFO  auth: login ok user=barbara
+2026-11-12 08:48:51 DEBUG cache: hit key=book:358
+2026-11-12 08:48:52 INFO  http: GET /books 404 8ms
+2026-11-12 08:49:05 INFO  auth: login ok user=grace
+2026-11-12 08:49:13 INFO  http: GET /loans 201 479ms
+2026-11-12 08:49:18 INFO  cache: evicted 4 entries
+2026-11-12 08:49:20 INFO  http: GET /books 200 15ms
+2026-11-12 08:49:23 INFO  worker: job 966 done in 639ms
+2026-11-12 08:49:28 INFO  http: GET /books 404 35ms
+2026-11-12 08:49:30 INFO  http: GET /books 200 256ms
+2026-11-12 08:49:43 INFO  db: pool size 22
+2026-11-12 08:49:44 INFO  http: GET /books 201 239ms
+2026-11-12 08:49:49 WARN  auth: bad password user=barbara
+2026-11-12 08:49:52 INFO  auth: login ok user=barbara
+2026-11-12 08:50:00 INFO  http: GET /loans 200 342ms
+2026-11-12 08:50:13 DEBUG db: query took 7ms

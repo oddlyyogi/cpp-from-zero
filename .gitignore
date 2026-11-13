@@ -5,3 +5,4 @@ logs/big.log
 *.profdata
 dist/
 gcm.cache/
+vcpkg_installed/
