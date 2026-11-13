@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <fstream>
 #include <format>
+#include <mutex>
 #include <ranges>
 #include <utility>
 
