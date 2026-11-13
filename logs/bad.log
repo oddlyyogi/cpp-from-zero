@@ -1,0 +1,4 @@
+2026-11-12 09:00:01 ERROR db: timeout
+Nov 12 09:00:02 INFO  http: up
+2026-11-12 09:00:03 WARN  cache
+2026-11-12 9:00 WARN db: slow

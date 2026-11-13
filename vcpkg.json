@@ -1,0 +1,8 @@
+{
+  "name": "loglens",
+  "version": "0.1.0",
+  "dependencies": [
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "fe8e78fac7df2793f9848ed0d27aa59d9c035998"
+}

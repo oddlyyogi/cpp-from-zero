@@ -1,0 +1,7 @@
+build/
+CMakeUserPresets.json
+logs/big.log
+*.profraw
+*.profdata
+dist/
+gcm.cache/
